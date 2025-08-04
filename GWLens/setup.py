@@ -15,8 +15,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="gw-lensing-analysis",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Saniya",
     description="A comprehensive toolkit for analyzing gravitational wave lensing effects",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -65,8 +64,8 @@ setup(
     zip_safe=False,
     keywords="gravitational waves, lensing, astronomy, physics, pycbc, ligo",
     project_urls={
-        "Bug Reports": "https://github.com/username/GW-Lensing-Analysis/issues",
-        "Source": "https://github.com/username/GW-Lensing-Analysis",
+        "Bug Reports": "https://github.com/elqmausam/GW_Lensing",
+        "Source": "https://github.com/elqmausam/GW_Lensing",
         "Documentation": "https://gw-lensing-analysis.readthedocs.io/",
     },
 )
