@@ -142,4 +142,28 @@ def compare_approximants():
     
     for approx in approximants:
         try:
-            hp, hc = waveform.get_td_w
+            hp, hc = waveform.get_td_waveform(
+                approximant=approx,
+                mass1=mass1,
+                mass2=mass2,
+                delta_t=delta_t,
+                f_lower=f_lower
+            )
+            
+            plt.plot(hp.sample_times, hp, label=approx)
+            
+        except Exception as e:
+            print(f"Could not generate waveform for {approx}: {e}")
+    
+    plt.xlabel('Time (s)')
+    plt.ylabel('Strain')
+    plt.title('Comparison of Waveform Approximants')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+
+if __name__ == "__main__":
+    main()
+    print("\nRunning approximant comparison...")
+    compare_approximants()
