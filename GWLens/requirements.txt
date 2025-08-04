@@ -1,1 +1,30 @@
+# Core dependencies
+numpy>=1.19.0
+scipy>=1.6.0
+matplotlib>=3.3.0
 
+# PyCBC and gravitational wave analysis
+pycbc>=2.0.0
+ligo-common>=1.0.0
+
+# Lensing-specific packages
+lenstronomy>=1.7.0
+astropy>=4.0
+
+# Additional scientific computing
+h5py>=3.0.0
+emcee>=3.0.0
+
+# Optional but recommended
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# For advanced plotting
+seaborn>=0.11.0
+
+# Configuration and utilities
+configparser>=5.0.0
+
+# Testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
