@@ -1,7 +1,5 @@
 # GW-Lensing-Analysis
 
-A comprehensive Python package for gravitational wave lensing analysis using PyCBC and lenstronomy frameworks.
-
 ## Overview
 
 This package provides tools for simulating and analyzing gravitational wave signals that have been gravitationally lensed by massive objects. It combines the power of PyCBC for gravitational wave generation and detection with lenstronomy for gravitational lensing calculations.
